@@ -30,4 +30,6 @@
 - Ctrl + D   클로드 세션 종료
 - Esc + Esc  직전 메시지로 회귀
 - Ctrl + j   줄바꿈
-- / 명령어     슬래시 명령어 실행
+- / 명령어     슬래시 명령어 실행    (/model, /config)
+
+<img width="631" height="248" alt="image" src="https://github.com/user-attachments/assets/229c87bb-f3c2-4b5b-bb8b-c771fd9a9cff" />
