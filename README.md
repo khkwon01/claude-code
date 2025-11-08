@@ -33,3 +33,8 @@
 - / 명령어     슬래시 명령어 실행    (/model, /config, /memory, /doctor)
 
 <img width="631" height="248" alt="image" src="https://github.com/user-attachments/assets/229c87bb-f3c2-4b5b-bb8b-c771fd9a9cff" />
+
+## 3. claude code 메모리
+- ./claude.local.md   : 특정 프로젝트 관련 설정이지만 팀원에게 공유할 필요가 없는 설정
+- ./claude/CLAUDE.md  : 프로젝트 전반에 걸쳐 적용하고 싶은 설정
+- ./CLAUDE.md         : 특정 프로젝트 관련 설정이거나 팀원에게 공유 설정
