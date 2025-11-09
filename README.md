@@ -26,10 +26,11 @@
    - 코드 스타일 및 패턴 학습
   
 ## 2. claude code key
-- Ctrl + C   현재 입력 또는 생성중인 아웃풋 중단
-- Ctrl + D   클로드 세션 종료
-- Esc + Esc  직전 메시지로 회귀
-- Ctrl + j   줄바꿈
+- Ctrl + C     현재 입력 또는 생성중인 아웃풋 중단
+- Ctrl + D     클로드 세션 종료
+- Esc + Esc    직전 메시지로 회귀
+- Ctrl + j     줄바꿈
+- Shift + tab  모드 전환 (일반, ??)
 - / 명령어     슬래시 명령어 실행    (/model, /config, /memory, /doctor)
 
 <img width="631" height="248" alt="image" src="https://github.com/user-attachments/assets/229c87bb-f3c2-4b5b-bb8b-c771fd9a9cff" />
