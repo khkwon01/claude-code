@@ -57,6 +57,9 @@
    - claude mcp add --transport http <name> <command> ...args...
    - claude mcp add --transport http context7 https://
 
+4. MCP 리스트 확인
+   - claude mcp list
+
 | 구분 | stdio 서버 | SSE 서버 | HTTP 서버 |
 |---|:---|:---|:---|
 | `실행 위치` | 로컬 컴퓨터 | 원격 서버 | 원격 서버 |
