@@ -43,3 +43,16 @@
 ## 4. 커스컴 슬래시 커맨드
 - 프로젝트 커스텀 슬래시 커맨드 : .claude/commands/   (.md 작성)
 - 사용자 커스텀 슬래시 커맨드  : ~/.claude/commands/   (.md 작성)
+
+## 5. MCP 추가 
+1. 로컬 서버 방식으로 MCP 추가 (.mcp.json 추가, "type":"stdio")
+   - claude mcp add <name> <command> ...args..
+   - claude mcp add context7 -- npx -y @ups~~
+
+2. SSE MCP추가 (.mcp.json 추가, "type":"sse")
+   - claude mcp add --transport sse <name> <commmand> ...args...
+   - claude mcp add --trnsport sse conect7 https://mcp~
+     
+3. HTTP MCP 추가 (.mcp.json 추가, "type":"http")
+   - claude mcp add --transport http <name> <command> ...args...
+   - claude mcp add --transport http context7 https://
