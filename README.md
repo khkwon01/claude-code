@@ -56,3 +56,10 @@
 3. HTTP MCP 추가 (.mcp.json 추가, "type":"http")
    - claude mcp add --transport http <name> <command> ...args...
    - claude mcp add --transport http context7 https://
+
+| 구분 | stdio 서버 | SSE 서버 | HTTP 서버 |
+|---|:---:|---:|---|
+| `실행 위치` | 로컬 컴퓨터 | 원격 서버 | 원격 서버 |
+| `통신 방향` | 양방향 (프로세스 통신) | 단방향(서버 --> 클라이언트) | 양방향 (요청/응답) |
+| `연결 방식` | 프로세스 실행 | 지속적 연결 | 요청 기반 연결 |
+| `핵심 용도` | 로컬 도구 및 스크립트 연동 | 실시간 데이터 스트리밍 | 일반적인 원격API 연동 |
